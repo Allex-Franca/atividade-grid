@@ -276,6 +276,8 @@ body {
     border: 2px solid #fde8d0;
     background-color: white;
     border-radius: 12px;
+    transform: 0.3s;
+    box-shadow: 0.3s;
     /* ESCREVA SEU CODIGO AQUI */
 }
 
@@ -405,7 +407,26 @@ body {
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
-
+.diferencial-card {
+    transform: 0.3s;
+    box-shadow: 0.3s;
+}
+.diferencial-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(230,126,34,0.15) ;
+}
+.prato-card{
+    transform: 0.3s;
+    box-shadow: 0.3s;
+}
+.btn-primario{
+    transform: 0.2s;
+    opacity: 0.2s;
+}
+.btn-primario:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+}
 
 /* =============================================
    QUESTAO 7 - PSEUDO-ELEMENTOS (::before / ::after)
