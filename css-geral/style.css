@@ -142,16 +142,23 @@ body {
 .hero-subtitulo {
     color: #e67e22;
     margin-bottom: 15px;
+    text-transform: uppercase 3x
     /* ESCREVA SEU CODIGO AQUI */
 }
 
 .hero-titulo {
     color: white;
     margin-bottom: 20px;
+    text-transform: uppercase 3rem;
+    line-height: 1.2
+
     /* ESCREVA SEU CODIGO AQUI */
 }
 
 .texto-destaque {
+    text-decoration: underline;
+    text-decoration-color: #e67e22;
+    text-underline-offset: 5px
     /* ESCREVA SEU CODIGO AQUI */
 }
 
