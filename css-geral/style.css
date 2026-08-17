@@ -362,6 +362,10 @@ body {
 
 .prato-info {
     padding: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .prato-info h3 {
@@ -532,6 +536,10 @@ position: relative
     font-style: italic;
     line-height: 1.7;
     margin-bottom: 20px;
+      display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
 }
 
 .depoimento-autor {
