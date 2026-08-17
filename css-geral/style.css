@@ -452,7 +452,25 @@ body {
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
-
+.secao-titulo::after{
+    content: ""(vazio);
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #e67e22;
+    margin: 12px auto 0;
+    border-radius: 2px;
+}
+.depoimento-card::before{
+content:open-quote("\201C");
+font-size: 4rem;
+color:#e67e22;
+opacity: 0.2;
+position:absolute;
+top: 10px; 
+left: 20px;
+position: relative para isso funcionar
+}
 
 /* =============================================
    QUESTAO 8 - POSITION (RELATIVE / ABSOLUTE)
