@@ -340,12 +340,20 @@ body {
 .prato-card {
     flex: 1 1 calc(33.333% - 17px);
     min-width: 280px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08) ;
+    border-radius: 12px;
+    background-color: white;
+    overflow:hidden
     /* ESCREVA SEU CODIGO AQUI */
 }
 
 .prato-img {
     color: white;
     font-size: 1rem;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     /* ESCREVA SEU CODIGO AQUI */
 }
 
