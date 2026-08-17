@@ -356,6 +356,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative
     /* ESCREVA SEU CODIGO AQUI */
 }
 
@@ -469,7 +470,7 @@ opacity: 0.2;
 position:absolute;
 top: 10px; 
 left: 20px;
-position: relative para isso funcionar
+position: relative 
 }
 
 /* =============================================
@@ -494,7 +495,16 @@ position: relative para isso funcionar
      font-size: 0.9rem
    ============================================= */
 
-.prato-tag {
+
+.prato-tag{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
     /* ESCREVA SEU CODIGO AQUI */
 }
 
@@ -531,6 +541,15 @@ position: relative para isso funcionar
 }
 
 .autor-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #e67e22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
     /* ESCREVA SEU CODIGO AQUI */
 }
 
