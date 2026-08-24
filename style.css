@@ -281,6 +281,9 @@ button:hover {
     max-width: 1100px;
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
+    display: flex;
+    gap: 25px;
+    flex: 1;
 }
 
 .info-card {
