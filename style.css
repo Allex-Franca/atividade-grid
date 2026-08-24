@@ -104,6 +104,9 @@ button:hover {
     text-align: center;
     min-height: 300px;
     /* ESCREVA SEU CODIGO AQUI */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner h1 {
