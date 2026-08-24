@@ -464,3 +464,22 @@ button:hover {
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
+@media (max-width: 768px) {
+  .categorias-grid,
+  .produtos-grid,
+  .info-grid,
+  .footer-grid {
+    flex-wrap: wrap;
+  }
+  .categorias-grid > *,
+  .info-grid > *,
+  .footer-grid > * {
+    flex: 1 1 calc(50% - 15px);
+  }
+  .produtos-grid > * {
+    flex: 1 1 100%;
+  }
+  .destaque-principal {
+    flex: 1 1 100%;
+  }
+}
