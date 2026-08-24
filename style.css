@@ -239,6 +239,8 @@ button:hover {
     background: linear-gradient(135deg, #6c63ff, #5a52d5);
     color: white;
     /* ESCREVA SEU CODIGO AQUI */
+    grid-column: 1 / 3; 
+    grid-row: 1 / 3;
 }
 
 .destaque-principal .preco {
