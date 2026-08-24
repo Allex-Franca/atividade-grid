@@ -126,9 +126,7 @@ button:hover {
    As categorias devem formar um grid de cards.
 
    Instrucoes:
-   - Transforme .categorias-grid em um grid container
-   - Crie 3 colunas de tamanhos iguais (use 1fr)
-   - Adicione um gap de 20px entre os cards
+
    ============================================= */
 
 .categorias {
@@ -140,6 +138,9 @@ button:hover {
     max-width: 1000px;
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
+    display: flex;
+    gap: 20px;
+    flex: 1;
 }
 
 .categoria-card {
@@ -187,6 +188,7 @@ button:hover {
 .produtos-grid {
     max-width: 1000px;
     margin: 0 auto;
+    
     /* ESCREVA SEU CODIGO AQUI */
 }
 
