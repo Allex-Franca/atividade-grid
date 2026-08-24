@@ -436,6 +436,16 @@ button:hover {
    ============================================= */
 
 /* ESCREVA SEU CODIGO AQUI */
+ 
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "marca"
+      "links"
+      "contato"
+      "redes";
+  }
+
 
 
 /* =============================================
