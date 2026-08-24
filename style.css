@@ -193,6 +193,7 @@ button:hover {
     /* ESCREVA SEU CODIGO AQUI */
     display: flex;
     gap: 20px;
+    flex: 1;
 }
 
 .produto-card {
