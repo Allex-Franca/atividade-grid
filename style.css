@@ -282,7 +282,7 @@ button:hover {
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
     display: flex;
-    gap: 25px;
+    gap: 100px;
     flex: 1;
 }
 
@@ -337,6 +337,9 @@ button:hover {
     max-width: 500px;
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
+    display: flex;
+    gap: 10px;
+    
 }
 
 .newsletter-form input {
