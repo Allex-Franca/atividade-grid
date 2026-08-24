@@ -57,6 +57,10 @@ button:hover {
 .header {
     background-color: #1a1a2e;
     padding: 15px 40px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
     /* ESCREVA SEU CODIGO AQUI */
 }
 
