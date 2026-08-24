@@ -337,8 +337,12 @@ button:hover {
     max-width: 500px;
     margin: 0 auto;
     /* ESCREVA SEU CODIGO AQUI */
-    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto;
     gap: 10px;
+
     
 }
 
